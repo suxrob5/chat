@@ -1,4 +1,5 @@
 const SignIn = ({ auth, firebase }) => {
+  
   const signInWithGoogle = () => {
     const provider = new firebase.auth.GoogleAuthProvider();
     auth.signInWithPopup(provider);
